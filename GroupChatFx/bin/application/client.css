@@ -1,0 +1,78 @@
+/* Định kiểu cho TextField nhập tên người dùng */
+.username-field {
+    -fx-pref-width: 300px;        /* Chiều rộng ưu tiên */
+    -fx-padding: 10px;            /* Padding xung quanh */
+    -fx-font-size: 14px;          /* Kích thước chữ */
+    -fx-border-color: #3498db;    /* Màu viền */
+    -fx-border-width: 2px;        /* Độ rộng viền */
+    -fx-border-radius: 5px;       /* Bo góc viền */
+}
+
+/* Định kiểu cho nút Tiếp tục */
+.continue-button {
+    -fx-pref-width: 100px;         /* Chiều rộng nút */
+    -fx-pref-height: 40px;         /* Chiều cao nút */
+    -fx-font-size: 14px;           /* Kích thước chữ */
+    -fx-background-color: #3498db; /* Màu nền nút */
+    -fx-text-fill: white;          /* Màu chữ */
+    -fx-border-radius: 5px;        /* Bo góc nút */
+    -fx-background-radius: 5px;    /* Bo góc nền nút */
+    -fx-cursor: hand;              /* Con trỏ chuột khi di chuột qua */
+}
+
+/* Định kiểu cho VBox chứa các thành phần trong màn hình nhập tên */
+.initial-root {
+    -fx-alignment: center;         /* Căn giữa nội dung */
+    -fx-padding: 40px;             /* Padding bên trong */
+    -fx-spacing: 15px;             /* Khoảng cách giữa các thành phần */
+}
+
+/* Định kiểu cho TextArea hiển thị chat */
+.chat-area {
+    -fx-pref-width: 360px;         /* Chiều rộng ưu tiên */
+    -fx-pref-height: 200px;        /* Chiều cao ưu tiên */
+    -fx-font-size: 12px;           /* Kích thước chữ */
+    -fx-wrap-text: true;           /* Bọc văn bản khi vượt quá chiều rộng */
+    -fx-background-color: #ecf0f1; /* Màu nền */
+    -fx-border-color: #bdc3c7;     /* Màu viền */
+    -fx-border-width: 1px;         /* Độ rộng viền */
+    -fx-border-radius: 5px;        /* Bo góc viền */
+    -fx-background-radius: 5px;    /* Bo góc nền */   
+}
+
+/* Định kiểu cho TextField nhập tin nhắn */
+.message-field {
+    -fx-pref-width: 300px;         /* Chiều rộng ưu tiên */
+    -fx-padding: 5px;              /* Padding xung quanh */
+    -fx-font-size: 14px;           /* Kích thước chữ */
+    -fx-border-color: #3498db;     /* Màu viền */
+    -fx-border-width: 1px;         /* Độ rộng viền */
+    -fx-border-radius: 5px;        /* Bo góc viền */
+}
+
+/* Định kiểu cho nút Gửi */
+.send-button {
+    -fx-pref-width: 80px;          /* Chiều rộng nút */
+    -fx-pref-height: 30px;         /* Chiều cao nút */
+    -fx-font-size: 14px;           /* Kích thước chữ */
+    -fx-background-color: #3498db; /* Màu nền nút */
+    -fx-text-fill: white;          /* Màu chữ */
+    -fx-border-radius: 5px;        /* Bo góc nút */
+    -fx-background-radius: 5px;    /* Bo góc nền nút */
+    -fx-cursor: hand;              /* Con trỏ chuột khi di chuột qua */
+}
+
+/* Định kiểu cho VBox chứa các thành phần trong giao diện chat */
+.chat-root {
+    -fx-padding: 20px;             /* Padding bên trong */
+    -fx-spacing: 10px;             /* Khoảng cách giữa các thành phần */
+    -fx-alignment: top-center;     /* Căn giữa các thành phần theo chiều dọc */
+}
+
+/* Định kiểu cho Label hiển thị tên người dùng */
+.user {
+    -fx-font-size: 16px;           /* Kích thước chữ */
+    -fx-font-weight: bold;         /* Đậm chữ */
+    -fx-padding: 5px;              /* Padding bên trong */
+    -fx-text-fill: #2c3e50;        /* Màu chữ */
+}
